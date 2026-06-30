@@ -26,13 +26,13 @@ Vertices can be expressed in either of the following formats (choose one):
 ```
 dataset/
 ├── SRU.csv               # Drone specifications
-├── 1h_20/                # 1-hour flight, 20 drones
+├── 1h_20/                # 1-hour flight, 20×20 grid
 │   ├── heatmap_values.csv
 │   ├── heatmap_index.csv
 │   └── heatmap_center_point.csv
-├── 2h_20/                # 2-hour flight, 20 drones
+├── 2h_20/                # 2-hour flight, 20×20 grid
 │   └── ...
-└── 3h_20/                # 3-hour flight, 20 drones
+└── 3h_20/                # 3-hour flight, 20×20 grid
     └── ...
 ```
 
@@ -77,4 +77,4 @@ Specifies the search drone's operational parameters.
 
 - All CSV files use `,` as the delimiter.
 - The heatmap size is fixed at **20×20 cells**.
-- Folder names follow the convention `{flight_hours}h_{num_drones}` (e.g., `2h_20` = 2-hour flight with 20 drones).
+- Folder names follow the convention `{flight_hours}h_{grid_size}` (e.g., `2h_20` = 2-hour flight with a 20×20 heatmap grid).
