@@ -1,6 +1,6 @@
 # EvoAC — Drone Search Path Planning Dataset
 
-A dataset for UAV (drone) search path planning over a probability map of target locations.
+A dataset for UAV search path planning over a probability map of target locations.
 
 ---
 
